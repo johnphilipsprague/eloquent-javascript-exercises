@@ -1,11 +1,14 @@
-// Write a loop that makes seven calls to console.log to output the following triangle:
-// #
-// ##
-// ###
-// ####
-// #####
-// ######
-// #######
+/*
+Prompt:
+Write a loop that makes seven calls to console.log to output the following triangle:
+#
+##
+###
+####
+#####
+######
+#######
+*/
 
 const makeTriangle = (height) => {
 	for (let i = 1; i <= height; i++) {
@@ -13,12 +16,15 @@ const makeTriangle = (height) => {
 	}
 }
 
+//test
 makeTriangle(7)
 
-// Book solution:
+/*
+Marijn's solution:
 
-// for (let line = "#"; line.length < 8; line += "#")
-// console.log(line);
+for (let line = "#"; line.length < 8; line += "#")
+console.log(line);
+*/
 
 /*
 Personal note:
